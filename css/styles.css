@@ -31,6 +31,7 @@ h2 {
   font-size: 40px;
   margin-top: 0;
 }
+
 .content-wrap {
   max-width: 950px;
   margin: 0 auto;
@@ -50,15 +51,27 @@ h2 {
   min-height: 175px;
 }
 
+/*
+forestgreen #228B22
+mediumturquoise #48D1CC
+cyan #00FFFF
+turquoise #40E0D0
+paleturquoise #AFEEEE
+lightcyan #E0FFFF
+lightgray #D3D3D3
+lavender #E6E6FA
 
+*/
 /* Header and Footer
 -------------------*/
 header,footer{
-  background: #2B2D42;
-  color: #8D99AE;
+  /*background: #2B2D42;*/
+  background: #008B8B;
+  /*color: #8D99AE;*/
+  color: #021310;
 }
 header h1, header h2{
-  color: #EDF2F4;
+  color: #021310;
   margin: 0;
 }
 /* Header styles only */
@@ -83,22 +96,22 @@ footer {
 /* certification
 -------------------*/
 .certification{
-  background: #EDF2F4;
+  background: #E0FFFF;
 }
 /* volunteer
 -------------------*/
 .volunteer{
-  background: #8D99AE;
+  background: #AFEEEE;
 }
 
 /* work experience
 -------------------*/
 .work{
-  background: #EDF2F4;
+  background: #E0FFFF;
 }
 
 /* education
 -------------------*/
 .education{
-  background: #8D99AE;
+  background: #AFEEEE;
 }
